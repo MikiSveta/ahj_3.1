@@ -15,7 +15,7 @@ export default class StartGame {
     const randomGoblin = Math.floor(Math.random() * this.goblin.length);
     if (document.querySelector('.goblin_active')) {
       document.querySelector('.goblin_active').classList.remove('goblin_active');
-    };
+    }
     this.goblin[randomGoblin].classList.add('goblin_active');
   }
 
@@ -27,13 +27,13 @@ export default class StartGame {
       this.point += 1;
       if (this.point === 5) {
         this.gameOver();
-      };
-    };
+      }
+    }
   }
 
   gameOver() {
     alert('Вы проиграли!');
     this.gamePlay.resetAllScores();
     clearInterval(this.interval);
-  };
+  }
 }
