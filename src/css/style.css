@@ -1,0 +1,36 @@
+body {
+    color: rgb(192, 104, 104);
+}
+
+.goblin-game {
+    width: 800px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+.goblin {
+    width: 150px;
+    height: 150px;
+    margin: 0 15px 30px;
+    background: gray;
+    border-radius: 50%;
+    cursor: url(https://ru.depositphotos.com/199036796/stock-illustration-thumb-finger-up-composition-of.html);
+}
+
+  .goblin_active {
+    background-image: url(https://github.com/netology-code/ahj-homeworks/raw/simplification/dom/pic/goblin.png);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-color: brown;
+}
+
+.status {
+    margin-bottom: 20px;
+  }
+
+
+
+
+
